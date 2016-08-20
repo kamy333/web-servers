@@ -1,0 +1,61 @@
+git config --global user.name="Kamran nafisspour"
+git config --global user.email="nafisspour@bluewin.ch"
+
+git config --global push.default matching
+git config --global alias checkout
+
+
+
+shh to chech .ssh key
+ls -al ~/.ssh
+
+to remove
+rm ~/.ssh/id_rsa
+rm ~/.ssh/id_rsa.pub
+
+to add
+ssh-keygen -t rsa -b 4096 -C "nafisspour@bluewin.ch"
+then click enter empty
+
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/Kamran/.ssh/id_rsa):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/Kamran/.ssh/id_rsa.
+Your public key has been saved in /c/Users/Kamran/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:g6i6I0PbzZbUuIxqe/ATbfaXevdxxJYmevFYra92C5k nafisspour@bluewin.ch
+The key's randomart image is:
+
+email of: andrewjosephmead@gmail.com
+
+
+get contents
+more ~/.ssh/id_rsa.pub
+paste it in github  or open file ./ssh directory  on user dir
+
+git remote or gite remote -v
+
+
+heroku.com 
+toolbet.heroku.com   to use CLI
+
+
+heroku --version
+heroku apps  ask email and pwd
+heroku create
+
+Heroku CLI submits usage information back to Heroku. If you would like to disable this, set `skip_analytics: true` in C:\Users\Kamran\AppData\Local/heroku/config.json
+Creating app... done, rocky-savannah-88819
+https://rocky-savannah-88819.herokuapp.com/ | https://git.heroku.com/rocky-savannah-88819.git
+
+heroku open
+open https://rocky-savannah-88819.herokuapp.com/
+
+
+
+
+
+
+
+
