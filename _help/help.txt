@@ -52,6 +52,24 @@ https://rocky-savannah-88819.herokuapp.com/ | https://git.heroku.com/rocky-savan
 heroku open
 open https://rocky-savannah-88819.herokuapp.com/
 
+C:\Users\Kamran\Documents\_Project\Node_perceival_udemy\web-server>
+git remote -v
+heroku  https://git.heroku.com/rocky-savannah-88819.git (fetch)
+heroku  https://git.heroku.com/rocky-savannah-88819.git (push)
+origin  https://github.com/kamy333/web-servers.git (fetch)
+origin  https://github.com/kamy333/web-servers.git (push)
+
+using ssh
+git remote set-url git@github.com:kamy333/web-servers.git
+
+to push to heroku
+git push heroku master
+
+
+
+
+
+
 
 
 
